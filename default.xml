@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
-           fetch="git@github.com"
-           />
-  <default remote="origin"
-           revision="master"
-           sync-j="4" />
-  <project name="sct_mini" path="otp7611/sct_mini.git" revision="main"/>
+  <remote  name="origin" fetch="ssh://git@github.com/" />
+  <default remote="origin" revision="master" sync-j="4" />
+  <project name="sct_mini" path="otp7611/sct_mini.git" revision="main" />
 </manifest>
