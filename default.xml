@@ -2,5 +2,5 @@
 <manifest>
   <remote  name="origin" fetch="ssh://git@github.com/otp7611/" />
   <default remote="origin" revision="master" sync-j="4" />
-  <project name="sct_mini" path="sct_mini" revision="main" />
+  <project name="sct_mini.git" path="sct_mini" revision="main" />
 </manifest>
