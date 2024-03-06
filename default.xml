@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="origin" fetch="ssh://git@github.com/otp7611/" />
+  <remote  name="origin-66.99" fetch="git@192.168.66.99:projs/" />
   <default remote="origin" revision="master" />
-  <project name="sct_mini.git" path="sct_mini" revision="main" />
+  <project name="sct_mini.git" path="matris/sct_mini" revision="main" />
+  <project name="srcv3" path="matris" revision="master" remote="origin-66.99" />
 </manifest>
